@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { RealExampleRef } from "./components/04-useRef/RealExampleRef";
+import { MemoHook } from "./components/06- memos/MemoHook";
+//import { RealExampleRef } from "./components/04-useRef/RealExampleRef";
+//import { LayOutEffect } from "./components/05- useLayoutEffect/LayOutEffect";
+//import { Memorize } from "./components/06- memos/Memorize";
 //import { FocusScreen } from "./components/04-useRef/FocusScreen";
 //import { RealExampleRef } from "./components/04-useRef/RealExampleRef";
 //import { CounterApp } from "./components/01-useState/CounterApp";
@@ -14,6 +17,6 @@ ReactDOM.render(
   //<HookApp />,
   //<CounterApp />,
   //<CounterWithCustomHook />,
-  <RealExampleRef  />,
+  <MemoHook  />,
   document.getElementById("root")
 );
