@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { MemoHook } from "./components/06- memos/MemoHook";
+import { CallbackHook } from "./components/06- memos/CallbackHook";
+//import { MemoHook } from "./components/06- memos/MemoHook";
 //import { RealExampleRef } from "./components/04-useRef/RealExampleRef";
 //import { LayOutEffect } from "./components/05- useLayoutEffect/LayOutEffect";
 //import { Memorize } from "./components/06- memos/Memorize";
@@ -17,6 +18,6 @@ ReactDOM.render(
   //<HookApp />,
   //<CounterApp />,
   //<CounterWithCustomHook />,
-  <MemoHook  />,
+  <CallbackHook  />,
   document.getElementById("root")
 );
